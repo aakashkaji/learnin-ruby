@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rule_name: MyString
+  default_rule: MyString
+  optional: MyText
+  assign: 
+  pattern: MyString
+
+two:
+  rule_name: MyString
+  default_rule: MyString
+  optional: MyText
+  assign: 
+  pattern: MyString

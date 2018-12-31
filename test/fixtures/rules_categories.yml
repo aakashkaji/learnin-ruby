@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  criteria: MyString
+  field_none: MyString
+  field_is: MyString
+  field_isnt: MyString
+  field_contains: MyString
+  field_dcontains: MyString
+
+two:
+  criteria: MyString
+  field_none: MyString
+  field_is: MyString
+  field_isnt: MyString
+  field_contains: MyString
+  field_dcontains: MyString
