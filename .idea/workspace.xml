@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9bd39bd-bb04-4196-a597-3fd74e9e6bd7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/test_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test_api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/learning/advance/golden_self.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/learning/advance/golden_self.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boot.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/boot.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/learning/advance/basic_inheritance.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/learning/advance/basic_inheritance.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/learning/basic ruby/check_module.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/learning/basic ruby/check_module.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -33,7 +29,8 @@
     <SUITE FILE_PATH="coverage/test_api@switch_case_example.rcov" NAME="switch_case_example Coverage Results" MODIFIED="1544591610412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/learning/advance" MODULE_NAME="test_api" />
     <SUITE FILE_PATH="coverage/test_api@rule_assignment.rcov" NAME="rule_assignment Coverage Results" MODIFIED="1544706488127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/learning/basic ruby" MODULE_NAME="test_api" />
     <SUITE FILE_PATH="coverage/test_api@ac.rcov" NAME="ac Coverage Results" MODIFIED="1544702962973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/learning/basic ruby" MODULE_NAME="test_api" />
-    <SUITE FILE_PATH="coverage/test_api@basic_inheritance.rcov" NAME="basic_inheritance Coverage Results" MODIFIED="1543746636824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/learning/advance" MODULE_NAME="test_api" />
+    <SUITE FILE_PATH="coverage/test_api@check_module.rcov" NAME="check_module Coverage Results" MODIFIED="1547465177849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/learning/basic ruby" MODULE_NAME="test_api" />
+    <SUITE FILE_PATH="coverage/test_api@basic_inheritance.rcov" NAME="basic_inheritance Coverage Results" MODIFIED="1547392471175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/learning/advance" MODULE_NAME="test_api" />
     <SUITE FILE_PATH="coverage/test_api@class_program.rcov" NAME="class_program Coverage Results" MODIFIED="1543666199879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/controllers" MODULE_NAME="test_api" />
     <SUITE FILE_PATH="coverage/test_api@data_type.rcov" NAME="data_type Coverage Results" MODIFIED="1544069819104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/learning/advance" MODULE_NAME="test_api" />
     <SUITE FILE_PATH="coverage/test_api@program.rcov" NAME="program Coverage Results" MODIFIED="1543607234865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/controllers" MODULE_NAME="test_api" />
@@ -41,82 +38,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rule_assignments_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/rule_assignments_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="boot.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/boot.rb">
+      <file leaf-file-name="20190102112908_create_appointments.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20190102112908_create_appointments.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rule_assignment.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/learning/basic ruby/rule_assignment.rb">
+      <file leaf-file-name="patient.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/patient.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="156" column="3" lean-forward="true" selection-start-line="156" selection-start-column="3" selection-end-line="156" selection-end-column="3" />
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_type.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/learning/advance/data_type.rb">
+      <file leaf-file-name="ruby_method.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/learning/advance/ruby_method.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+            <state relative-caret-position="30">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rule_assignment.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/rule_assignment.rb">
+      <file leaf-file-name="basic_inheritance.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/learning/advance/basic_inheritance.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="28" selection-start-line="3" selection-end-line="4" />
+            <state relative-caret-position="315">
+              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_aakash.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/learning/basic ruby/test_aakash.rb">
+      <file leaf-file-name="first.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/learning/basic ruby/first.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rules_category.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/rules_category.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="check_module.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/learning/basic ruby/check_module.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ac.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ac.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/learning/basic ruby/ac.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1545">
+            <state relative-caret-position="645">
               <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
             </state>
           </provider>
@@ -125,8 +95,33 @@
       <file leaf-file-name="data_dump.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/learning/basic ruby/data_dump.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="230">
               <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check_module.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/learning/basic ruby/check_module.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basicExample.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/learning/advance/basicExample.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-355" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20190102112749_create_physicians.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20190102112749_create_physicians.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -136,8 +131,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Ruby Class Template" />
         <option value="Ruby Module Template" />
+        <option value="Ruby Class Template" />
       </list>
     </option>
   </component>
@@ -155,10 +150,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/controllers/program.rb" />
         <option value="$PROJECT_DIR$/test/controllers/class_program.rb" />
         <option value="$PROJECT_DIR$/app/learning/advance/basicExample.rb" />
-        <option value="$PROJECT_DIR$/app/learning/advance/basic_inheritance.rb" />
         <option value="$PROJECT_DIR$/app/learning/advance/golden_self.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/db/migrate/20181204120710_create_authors.rb" />
@@ -193,9 +186,21 @@
         <option value="$PROJECT_DIR$/app/models/rule_assignment.rb" />
         <option value="$PROJECT_DIR$/app/learning/basic ruby/rule_assignment.rb" />
         <option value="$PROJECT_DIR$/app/controllers/rule_assignments_controller.rb" />
-        <option value="$PROJECT_DIR$/app/learning/basic ruby/check_module.rb" />
         <option value="$PROJECT_DIR$/app/learning/basic ruby/test_aakash.rb" />
         <option value="$PROJECT_DIR$/app/learning/basic ruby/ac.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190102112908_create_appointments.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190102112749_create_physicians.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190102112707_create_patients.rb" />
+        <option value="$PROJECT_DIR$/app/models/appointment.rb" />
+        <option value="$PROJECT_DIR$/app/models/patient.rb" />
+        <option value="$PROJECT_DIR$/app/models/physician.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190103114157_create_directors.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190103114330_create_films.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190103114505_create_likes.rb" />
+        <option value="$PROJECT_DIR$/app/learning/advance/ruby_method.rb" />
+        <option value="$PROJECT_DIR$/app/learning/advance/basic_inheritance.rb" />
+        <option value="$PROJECT_DIR$/app/learning/basic ruby/first.yml" />
+        <option value="$PROJECT_DIR$/app/learning/basic ruby/check_module.rb" />
       </list>
     </option>
   </component>
@@ -215,18 +220,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="81" />
+    <option name="y" value="132" />
     <option name="width" value="1440" />
-    <option name="height" value="905" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,12 +242,6 @@
               <item name="test_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_api" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_api" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test_api" type="b2602c69:ProjectViewProjectNode" />
@@ -297,13 +295,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/lms" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="sshConsole" />
@@ -320,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby.test_aakash">
+  <component name="RunManager" selected="Ruby.check_module">
     <configuration name="Development: test_api" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="test_api" />
@@ -429,7 +428,24 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/learning/basic ruby/ac.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
-    <configuration name="data_dump" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="basic_inheritance" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="test_api" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/app/learning/advance" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/learning/advance/basic_inheritance.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+    </configuration>
+    <configuration name="check_module" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="test_api" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/app/learning/basic ruby" />
@@ -443,7 +459,7 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/learning/basic ruby/data_dump.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/learning/basic ruby/check_module.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
     <configuration name="rule_assignment" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
@@ -461,23 +477,6 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/learning/basic ruby/rule_assignment.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-    </configuration>
-    <configuration name="switch_case_example" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="test_api" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/app/learning/advance" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/learning/advance/switch_case_example.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
     <configuration name="test_aakash" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
@@ -502,19 +501,19 @@
       <item itemvalue="Rake.spec: test_api" />
       <item itemvalue="Rails.Production: test_api" />
       <item itemvalue="Rails.Development: test_api" />
-      <item itemvalue="Ruby.data_dump" />
       <item itemvalue="Ruby.rule_assignment" />
-      <item itemvalue="Ruby.switch_case_example" />
       <item itemvalue="Ruby.ac" />
       <item itemvalue="Ruby.test_aakash" />
+      <item itemvalue="Ruby.basic_inheritance" />
+      <item itemvalue="Ruby.check_module" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Ruby.check_module" />
+        <item itemvalue="Ruby.basic_inheritance" />
         <item itemvalue="Ruby.test_aakash" />
         <item itemvalue="Ruby.rule_assignment" />
         <item itemvalue="Ruby.ac" />
-        <item itemvalue="Ruby.data_dump" />
-        <item itemvalue="Ruby.switch_case_example" />
       </list>
     </recent_temporary>
   </component>
@@ -537,29 +536,31 @@
       <workItem from="1543993580174" duration="30771000" />
       <workItem from="1544420243211" duration="77365000" />
       <workItem from="1544782191124" duration="4040000" />
-      <workItem from="1544965065269" duration="11908000" />
+      <workItem from="1544965065269" duration="24452000" />
+      <workItem from="1546665804107" duration="1362000" />
+      <workItem from="1547392003557" duration="4281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170665000" />
+    <option name="totallyTimeSpent" value="188852000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="7" />
+    <frame x="81" y="132" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21669431" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17216642" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32948583" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42091152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.547744" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39874083" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.36306402" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39812332" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -616,7 +617,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/learning/advance/basic_inheritance.rb</url>
-          <line>25</line>
+          <line>26</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
@@ -709,8 +710,13 @@
           <line>18</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/learning/basic ruby/check_module.rb</url>
+          <line>15</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="33" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -734,6 +740,11 @@ end</expression-string>
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>@data</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>params.permit(:rule_name, :default_rule, :pattern, {&quot;optional&quot;:[]})</expression-string>
         <language-id>ruby</language-id>
@@ -774,104 +785,9 @@ end</expression-string>
         <language-id>ruby</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>params.require(:rule_assignment).permit(:rule_name, :default_rule, :pattern, {optional:[]}, assign: {})</expression-string>
-        <language-id>ruby</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20181211063936_create_aakashes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/aakash.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/aakashes_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/accounts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/authors_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="57" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/lead_assign_rule.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/learning/advance/basicExample.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/learning/advance/golden_self.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/learning/advance/lopp_example.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/learning/advance/switch_case_example.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/learning/advance/basic_inheritance.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/formatters/plain_formatter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20181213055558_create_rule_assignments.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1005,13 +921,6 @@ end</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1.1/lib/active_support/core_ext/object/blank.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1054,27 +963,10 @@ end</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/learning/basic ruby/data_dump.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/learning/basic ruby/check_module.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1089,13 +981,6 @@ end</expression-string>
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="19" selection-start-column="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/rule_assignment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="28" selection-start-line="3" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -1120,10 +1005,123 @@ end</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/aakash.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/rule_assignment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/appointment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190102112707_create_patients.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190102112749_create_physicians.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190102112908_create_appointments.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190103114157_create_directors.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190103114330_create_films.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190103114505_create_likes.rb" />
+    <entry file="file://$PROJECT_DIR$/app/models/physician.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/patient.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/learning/advance/ruby_method.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/learning/basic ruby/ac.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
+        <state relative-caret-position="645">
           <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/learning/basic ruby/data_dump.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/learning/advance/basicExample.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/learning/advance/basic_inheritance.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/learning/basic ruby/first.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/learning/basic ruby/check_module.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>

@@ -9,6 +9,7 @@ class Parent_class
   end
 
   def your_name
+    puts 'parent class method execute'
     return @name
   end
 
@@ -17,8 +18,8 @@ end
 class Child < Parent_class
 
   def your_name
+    puts "child class method executed"
     super()
-
   end
 
 end

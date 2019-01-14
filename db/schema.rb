@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_13_055558) do
+ActiveRecord::Schema.define(version: 2019_01_02_112908) do
 
   create_table "aakashes", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name", null: false
@@ -23,6 +23,16 @@ ActiveRecord::Schema.define(version: 2018_12_13_055558) do
     t.string "account_type", default: "saving"
     t.string "holder_name", null: false
     t.float "amount", default: 0.0
+  end
+
+  create_table "appointments", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.datetime "appointment_date"
+    t.bigint "patient_id"
+    t.bigint "physician_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["patient_id"], name: "index_appointments_on_patient_id"
+    t.index ["physician_id"], name: "index_appointments_on_physician_id"
   end
 
   create_table "authors", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -50,6 +60,19 @@ ActiveRecord::Schema.define(version: 2018_12_13_055558) do
     t.datetime "updated_at", null: false
     t.bigint "rules_category_id"
     t.index ["rules_category_id"], name: "index_categories_on_rules_category_id"
+  end
+
+  create_table "patients", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "physicians", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "name"
+    t.string "field_type"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "rule_assignments", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
